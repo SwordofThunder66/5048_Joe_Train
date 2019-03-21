@@ -1,0 +1,36 @@
+package app;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        Stringer()
+    }
+
+    public static void Stringer()
+    {
+        string myString = "Hello";
+        int myNumber = 0;
+        double myFloat = 1.2;
+        int[] myNumberList = {15,37,42,65,97,25};
+        
+        int number1=1;
+        int number2=2;
+        int output = (number1 + number2);
+        
+    }
+    while(counter<myNumberList.length)
+        {
+            result = result + myNumberList[counter];
+            System.out.println(result);
+            counter++;
+        }
+
+        result = 0;
+
+        for(int i=0;i<myNumberList.length;i++)
+        {
+            result += myNumberList[i];
+            System.out.println(result);
+
+        }
+
+}
